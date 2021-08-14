@@ -1,0 +1,22 @@
+ ALGORITHM triparinsertion 
+ VAR
+     t : array_name :INTEGER[4];
+     i : INTEGER;
+     j: INTEGER;
+     k : INTEGER;
+ BEGIN
+ BEGIN
+    j :=2
+    WHILE ( j<=(t.leng)) DO
+       i :=j-1
+      k :=t[j]
+WHILE (i>0 et que t[i]>k) DO
+    t[i+1]:=t[i]
+    i :=i-1
+END_WHILE
+     t[i+1]:=k
+     j :=j+1
+  END_WHILE
+END
+
+  
